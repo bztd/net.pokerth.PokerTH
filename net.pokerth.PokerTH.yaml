@@ -93,7 +93,7 @@ modules:
       - ./b2 install
     sources:
       - type: archive
-        url: https://boostorg.jfrog.io/artifactory/main/release/1.64.0/source/boost_1_64_0.tar.bz2
+        url: https://downloads.sourceforge.net/boost/boost/1.64.0/boost_1_64_0.tar.bz2
         sha256: 7bcc5caace97baa948931d712ea5f37038dbb1c5d89b43ad4def4ed7cb683332
 
   - name: pokerth
