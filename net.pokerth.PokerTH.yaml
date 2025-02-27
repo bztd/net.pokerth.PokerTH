@@ -46,6 +46,16 @@ modules:
       - type: archive
         url: https://github.com/protocolbuffers/protobuf/releases/download/v2.6.1/protobuf-2.6.1.tar.bz2
         sha256: ee445612d544d885ae240ffbcbf9267faa9f593b7b101f21d58beceb92661910
+        
+ - name: libgcrypt
+    config-opts:
+      - --disable-static
+      - --disable-doc
+    sources:
+      - type: git
+        url: https://dev.gnupg.org/source/libgcrypt.git
+        tag: libgcrypt-1.10.3
+        commit: aa1610866f8e42bdc272584f0a717f32ee050a22
 
   - name: gsasl
     buildsystem: autotools
